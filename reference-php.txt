@@ -1,0 +1,15 @@
+Introduction
+https://www.php.net/manual/fr/introduction.php
+https://www.php.net/manual/fr/tutorial.php
+
+Les types
+https://www.php.net/manual/fr/language.types.php
+Booléen
+Les entiers
+Nombres à virgules flottantes
+Les chaînes de caractères
+Les tableaux
+
+PSR
+https://www.php-fig.org/psr/psr-1/
+https://www.php-fig.org/psr/psr-12/
