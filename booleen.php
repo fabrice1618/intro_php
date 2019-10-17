@@ -1,20 +1,22 @@
 <?php
 
 
-$erreur = true;
+$erreur = false;
 
-if ($erreur) {
-  echo "Il y a une erreur";
-} else {
+if (!$erreur) {
   echo "Tout va bien";
+} else {
+  echo "Il y a une erreur";
 }
 
 
+/*
+//$a = true;
+$a = false;
 
-$a = true;
-//$a = false;
 if ($a==true) {
   echo "C'est vrai";
 } else {
   echo "C'est faux";
 }
+*/
