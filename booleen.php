@@ -1,6 +1,23 @@
 <?php
-// Nouvelle version
 
+//$a = -12; //true
+//$a=0;     //false
+//$a=0.0;   //false
+//$a=0.1;   //true
+//$a="0";   //false
+$a="1";   //true  avec === c'est false
+//$a="";      //false
+//$a='0';     //false
+
+//if ($a==true) {
+if ($a===true) {
+  echo "C'est vrai";
+} else {
+  echo "C'est faux";
+}
+
+
+/*
 $erreur = false;
 
 if (!$erreur) {
@@ -8,7 +25,7 @@ if (!$erreur) {
 } else {
   echo "Il y a une erreur";
 }
-
+*/
 
 /*
 //$a = true;
