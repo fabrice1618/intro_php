@@ -18,3 +18,8 @@ Pour synchroniser un dossier avec github
 cd /c/dev
 git clone https://github.com/fabrice1618/intro_php.git intro_php
 git pull origin master (pour synchroniser)
+
+
+Programmation defensive
+  Les strict types
+  Les assertions
