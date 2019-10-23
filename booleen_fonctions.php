@@ -4,33 +4,33 @@
 
 function isVrai( $parametre, $langue )
 {
-  $maLangue="en";
-  if ($langue=="fr") {
-    $maLangue="fr";
-  }
 
-  if ($maLangue=='fr') {
-    echo "La valeur de mon parametre est : ";
-  } else {
-    echo "The value of parameter is : ";
-  }
+  if (($langue=="fr") || ($langue=='en')) {
+    // On execute la fonction
 
-  var_dump($parametre);
-
-  if ($parametre==true) {
-
-    if ($maLangue=='fr') {
-      echo "C'est vrai";
+    if ($langue=="fr") {
+      $messageParametre="La valeur de mon parametre est : ";
+      $messageVrai = "C'est vrai";
+      $messageFaux = "C'est faux";
     } else {
-      echo "It's true";
+      $messageParametre="The value of parameter is : ";
+      $messageVrai = "It's true";
+      $messageFaux = "It's false";
     }
-  } else {
-    if ($maLangue=='fr') {
-      echo "C'est faux";
-    } else {
-      echo "It's false";
-    }
-  }
-  echo "\n\n";
 
+    echo $messageParametre;
+    var_dump($parametre);
+
+    if ($parametre==true) {
+      echo $messageVrai;
+    } else {
+      echo $messageFaux;
+    }
+    echo "\n\n";
+
+  } else {
+    // Il y a une erreur
+    echo "Erreur: langue inconnue!!!\n\n";
+  }
+  // Le point de sortie de la fonction
 }

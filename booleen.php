@@ -1,9 +1,9 @@
 <?php
 require_once("booleen_fonctions.php");
 
-$langueduprojet = "fr";
+$langue2 = "ita";
 
-$a = -12; //true
+$a = -13; //true
 isVrai( $a, "fr" );
 
 $b=0;     //false
@@ -13,15 +13,15 @@ $a=0.0;   //false
 isVrai( $a, 'en' );
 
 $c=0.1;   //true
-isVrai( $c, $langueduprojet );
+isVrai( $c, $langue2 );
 
 $a="0";   //false
-isVrai( $a, $langueduprojet );
-isVrai( "1", $langueduprojet );
+isVrai( $a, $langue2 );
+isVrai( "1", $langue2 );
 
-//$a="1";   //true  avec === c'est false
-//$a="";      //false
-//$a='0';     //false
+isVrai( "", $langue2 );
+
+isVrai( '0', $langue2 );
 
 //if ($a==true) {
 /*
