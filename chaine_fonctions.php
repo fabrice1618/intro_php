@@ -135,6 +135,14 @@ function isLettreMajuscule($caractere)
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> bcaef07a46361497639b8730b17b1352d28e2549
 function isVide($chaine)
 {
   $resultat = false;
